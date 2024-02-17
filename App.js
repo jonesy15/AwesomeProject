@@ -29,7 +29,7 @@ export default function App() {
       </View>
       <View style={styles.footerContainer}>
         <Button theme="primary" label="Choose a photo" onPress={pickImageAsync} />
-        <Button label="Use this photo" />
+        <Button label="Add Emoji" />
       </View>
       <StatusBar style="auto" />
     </View>
